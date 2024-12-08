@@ -4,42 +4,7 @@
     <meta charset="UTF-8">
 	<title>Table</title>
 
-	<style>
-		body {
-			background: #FFFFFF;
-		}
-
-		table,
-		th,
-		td {
-			border-collapse: collapse;
-		}
-
-		thead {
-			text-align: center;
-		}
-
-		.table-head-content {
-			text-align: left;
-		}
-
-		.table-container {
-			width: 600px;
-			margin: 40px auto;
-			background: #fff;
-			padding: 24px;
-			box-shadow: 0 0 7px 0 gray;
-		}
-
-		.logo {
-			width: 120px;
-			height: 56px;
-		}
-
-		.border {
-			border-bottom: 1px solid #E0E0E0;
-		}
-	</style>
+	<link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
 	<div class="table-container">
@@ -85,28 +50,25 @@
 					<td>Total</td>
 					<td>6</td>
 					<td><h3>$3194.99</h3></td></tr></tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3">
+<table class="second-table">
+	<tbody>
+		<tr>
+			<td class="second-table-td"><img class="logo" src="image/logo.png" alt=""></td>
+			<p>Acme Corporation</p>
+			<p>Think Different</p>
+			<p>123 Main Street Anvtown CA12345</p>
+		</tr>
+
+	</tbody>
+</table>
+							</td>
+						</tr>
+					</tfoot>
 							</table>
 	</div>
 </body>
-    <div class="table-container">
-		<table>
-			<tr>
-					<td class="" colspan="3">
-						<a class="" href="#"></a>
-						<div>
-							<img class="logo" src="image/logo.png" alt="">
-						</div>
-                        <div class="table-head-content">
-							<p class="title"> <h2> Acme Corporation </h2> </p>
-                            <tr class="border">                          
-                            </tr><td colspan="3" >
-								<table>
-									<tr><td style="width:50%"><strong>ACME Corporation</strong></td>
-										<td style="width:50%; text-align:right">123 Main Street Anvtown CA12345</td></tr></table>
-				<tr><td colspan="2" style="text-align:left;">Think Different</td></tr>
-								</table>
-							</td></tr>
-                            </tr>
-		</div>
     </html>        
     
